@@ -23,9 +23,7 @@ public class PenguinAnimController : MonoBehaviour
 
     private void MoveAnimation(Vector2 _velocity)
     {
-        if (_velocity == Vector2.zero)
-            anim.SetBool("isMoving", false);
-        else 
-            anim.SetBool("isMoving", true);
+        bool _isMoving = _velocity != Vector2.zero ? true : false;
+        anim.SetBool("isMoving", _isMoving);
     }
 }
