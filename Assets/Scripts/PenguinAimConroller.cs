@@ -6,9 +6,11 @@ using UnityEngine;
 public class PenguinAimConroller : MonoBehaviour
 {
     private InputController _controller;
+    [SerializeField] private SpriteRenderer _sprite;
 
     private void Awake()
     {
+        _sprite = this.GetComponent<SpriteRenderer>();
         _controller = this.GetComponent<InputController>();
     }
 
@@ -20,6 +22,7 @@ public class PenguinAimConroller : MonoBehaviour
 
     public void Look(Vector2 _direction)
     {
-        Debug.Log(_direction.magnitude);
+        float degree = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
+        _sprite.flipX = Mathf.Abs(degree) > 90f;
     }
 }
