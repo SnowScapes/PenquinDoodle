@@ -4,8 +4,5 @@ using UnityEngine;
 
 public interface IUiButton
 {
-    public void OnClick()
-    {
-        
-    }
+    public void OnClick();
 }
