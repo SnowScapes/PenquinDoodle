@@ -15,7 +15,7 @@ public class NameButton : MonoBehaviour , IUiButton
 
     public void OnClick()
     {
-        if (valid_Name.IsMatch(inputField_Name.text))
+        if (valid_Name.IsMatch(inputField_Name.text) && GameManager.Instance.PlayerPref != null)
         {
             GameManager.Instance.PlayerName = inputField_Name.text;
             SceneManager.LoadScene("MainScene");
