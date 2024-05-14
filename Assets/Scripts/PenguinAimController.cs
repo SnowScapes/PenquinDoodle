@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PenguinAimConroller : MonoBehaviour
+public class PenguinAimController : MonoBehaviour
 {
     private InputController _controller;
     [SerializeField] private SpriteRenderer _sprite;
