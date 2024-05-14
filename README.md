@@ -27,8 +27,8 @@
 ##### 2. 캐릭터 이동, 카메라 따라가기    
 <details><summary>사진 펼치기</summary>
 
-    1. 캐릭터 이동 스크립트 > InputController,PlayerController, PenguinController, PenguinAimController
-    2. 카메라 이동 스크립트 > CameraController.cs
+1. 캐릭터 이동 스크립트 > InputController,PlayerController, PenguinController, PenguinAimController
+2. 카메라 이동 스크립트 > CameraController.cs
    ![CharacterMove](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/e36dcaa6-c00e-4461-bfc3-fdbc4c92155a)
 </details>
 
@@ -41,8 +41,8 @@
 ##### 4. 이름 입력, 캐릭터 선택 시스템    
 <details><summary>사진 펼치기</summary>
 
-    1. 이름 입력 스크립트 > [NameButton.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/NameButton.cs)
-    2. 캐릭터 선택 스크립트 > CharacterButton.cs, GenerateCharacter.cs
+1. 이름 입력 스크립트 > [NameButton.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/NameButton.cs)
+2. 캐릭터 선택 스크립트 > CharacterButton.cs, GenerateCharacter.cs
    ![image](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/d68c6591-889d-4373-af2d-c263142953e2)    
 </details>
 
