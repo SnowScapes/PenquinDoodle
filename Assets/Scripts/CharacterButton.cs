@@ -4,20 +4,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CharacterButton : MonoBehaviour
+public class CharacterButton : MonoBehaviour, IUiButton
 {
     [SerializeField] private Button[] _buttons;
+
+    private int buttonIndex;
 
     private void Start()
     {
         for (int i = 0; i < _buttons.Length; i++)
         {
             int index = i;
-            _buttons[i].onClick.AddListener(() => OnClick(index));
+            _buttons[i].onClick.AddListener(() => OnClick());
+            _buttons[i].onClick.AddListener(() => setButtonIndex(index));
         }
     }
 
-    public void OnClick(int buttonIndex)
+    private void setButtonIndex(int _index)
+    {
+        buttonIndex = _index;
+    }
+    
+    public void OnClick()
     {
         string path = "";
         switch (buttonIndex)
