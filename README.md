@@ -21,7 +21,7 @@
 <details><summary>사진 펼치기</summary>
 
     
-    1. 애니메이션 스크립트 > [PenguinAnimController.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PenguinAnimController.cs)
+1. 애니메이션 스크립트 > [PenguinAnimController.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PenguinAnimController.cs)
    ![character](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/4f93ef07-84d8-42a9-955a-faca18fa1ab6)    
 </details>
 
