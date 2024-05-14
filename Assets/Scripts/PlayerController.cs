@@ -7,7 +7,6 @@ public class PlayerController : InputController
     {
         //Debug.Log(value.Get<Vector2>().magnitude);
         Vector2 moveInput = value.Get<Vector2>().normalized;
-        Debug.Log(moveInput.magnitude);
         CallMoveEvent(moveInput);
     }
 
