@@ -21,7 +21,7 @@
 <details><summary>사진 펼치기</summary>
 
     
-1. 애니메이션 스크립트 > [PenguinAnimController.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PenguinAnimController.cs)
+1. 애니메이션 스크립트 > [PenguinAnimController.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PenguinAnimController.cs)    
    ![character](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/4f93ef07-84d8-42a9-955a-faca18fa1ab6)    
 </details>
 
@@ -29,9 +29,9 @@
 <details><summary>사진 펼치기</summary>
 
     
-1. 캐릭터 이동 스크립트 > [InputController](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/InputController.cs), [PlayerController](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PlayerController.cs), [PenguinController](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PenguinController.cs), [PenguinAimController](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PenguinAimController.cs)
-2. 카메라 이동 스크립트 > [CameraController.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/NameButton.cs)
-   ![CharacterMove](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/e36dcaa6-c00e-4461-bfc3-fdbc4c92155a)
+1. 캐릭터 이동 스크립트 > [InputController](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/InputController.cs), [PlayerController](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PlayerController.cs), [PenguinController](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PenguinController.cs), [PenguinAimController](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/PenguinAimController.cs)    
+2. 카메라 이동 스크립트 > [CameraController.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/NameButton.cs)    
+   ![CharacterMove](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/e36dcaa6-c00e-4461-bfc3-fdbc4c92155a)    
 </details>
 
 ##### 3. 방 만들기    
@@ -44,7 +44,7 @@
 <details><summary>사진 펼치기</summary>
 
     
-1. 이름 입력 스크립트 > [NameButton.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/NameButton.cs)
+1. 이름 입력 스크립트 > [NameButton.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/NameButton.cs)    
 2. 캐릭터 선택 스크립트 > [CharacterButton.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/CharacterButton.cs), [GenerateCharacter.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/GenerateCharacter.cs)    
 
    ![image](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/d68c6591-889d-4373-af2d-c263142953e2)    
