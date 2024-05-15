@@ -22,6 +22,9 @@ public class TimeText : MonoBehaviour
     }
     private IEnumerator updateTimeText()
     {
+        // yeild return new WaitForSeconds(1.0f)의 경우
+        // 매번 새로운 waitforseconds 인스턴스를 만들기 때문에
+        // new를 한번만 할 수 있도록 만들었다.
         WaitForSeconds delay1sec = new WaitForSeconds(1.0f);
 
         while (true)
