@@ -8,15 +8,15 @@ public class CharacterButton : MonoBehaviour, IUiButton
 {
     [SerializeField] private Button[] _buttons;
 
-    private int buttonIndex;
+    [SerializeField] private int buttonIndex;
 
     private void Start()
     {
         for (int i = 0; i < _buttons.Length; i++)
         {
             int index = i;
-            _buttons[i].onClick.AddListener(() => OnClick());
             _buttons[i].onClick.AddListener(() => setButtonIndex(index));
+            _buttons[i].onClick.AddListener(() => OnClick());
         }
     }
 
