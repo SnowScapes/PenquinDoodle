@@ -50,6 +50,16 @@
    ![image](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/d68c6591-889d-4373-af2d-c263142953e2)    
 </details>
 
+##### 5. 캐릭터 이름, 시간 표시 UI    
+<details><summary>사진 펼치기</summary>
+
+
+1. 캐릭터 이름 설정 스크립트 > [NameTagText.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/NameTagText.cs)    
+2. 시간 설정 스크립트 > [TimeText.cs](https://github.com/SnowScapes/PenquinDoodle/blob/main/Assets/Scripts/TimeText.cs)    
+   
+   ![image](https://github.com/SnowScapes/PenquinDoodle/assets/39547945/6517c0a5-dda0-41ec-99d7-59a70da4f816)    
+</details>
+
 ---
 ### 🌕 미구현 목록
 <details>
