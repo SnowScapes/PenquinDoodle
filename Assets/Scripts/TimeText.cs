@@ -1,11 +1,9 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TimeText : MonoBehaviour
+public class TimeText : MonoBehaviour, IUiText
 {
     [SerializeField] private Text timeText;
 
@@ -32,7 +30,7 @@ public class TimeText : MonoBehaviour
         while (true)
         {
             currentTime = DateTime.Now.ToString("hh:mm");
-            timeText.text = currentTime;
+            SetText(currentTime);
             
             //첫 실행때는 초를 계산하여 다음 시계의 업데이트 시간을 결정한다.
             if (firstInitialized)
@@ -40,5 +38,10 @@ public class TimeText : MonoBehaviour
             else
                 yield return delay1min;
         }
+    }
+
+    public void SetText(string _time)
+    {
+        timeText.text = _time;
     }
 }
